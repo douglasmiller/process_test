@@ -1,6 +1,6 @@
 # ProcessTest
 
-This is a test repository that demonstrates and issue with a jruby application importing a jar file that contains a Process class. The issue is that after running java_import, the top level ruby module Process is no longer accessible without specifying the :: global namespace.
+This is a test repository that demonstrates and issue with a jruby application importing a jar file that contains a Process class. The issue is that after running java_import, the top level ruby module Process is no longer accessible even when specifying the :: global namespace.
 
 ## Testing
 
